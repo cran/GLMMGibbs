@@ -40,7 +40,7 @@ rcoda.object(g)
 }
 \author{ Jonathan Myles, Imperial Cancer Research Fund, and David
   Clayton, Wellcome Trust \email{mylesj@icrf.icnet.uk}}
-\seealso{\code{\link{glmm}}
+\seealso{\code{\link{glmm}}}
 \keyword{models}
 
 

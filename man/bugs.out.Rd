@@ -31,7 +31,7 @@ bugs.out(g,file)
 \author{ Jonathan Myles, Imperial Cancer Research Fund, and David
   Clayton, Wellcome Trust \email{mylesj@icrf.icnet.uk}}
 \seealso{ \code{\link{glmm}}, \code{\link{plot.glmm}},
-          \code{\link{print.glmm}}
+          \code{\link{print.glmm}}}
 \keyword{models}
 
 

@@ -86,6 +86,7 @@
 \seealso{ \code{\link{Ra}},
   \code{\link{plot.glmm}},
   \code{\link{print.glmm}}
+}
 \keyword{models}
 
 

@@ -1,14 +1,14 @@
-Ra                       Create Random Factor
-ordinal.end              The ordinal end of an expression
-bugs.out                 Write Glmm Fit  To Bugs Output Files
-coda.object              Convert Glmm Output For Use With CODA
-epil.bugs                Results of a Clinical trial of Progadine
-glmm                     GLMMs By Gibbs Sampling
-model.init               Initialise a GLMM
-add.block                Add a block to a C Structure GLMM
-plot.glmmfit             Plot Result Of Glmm Fit
-print.glmmfit            Print Result Of Glmm Fit
-rtparse                  Parse a terms expression into blocks
-sampled.values           Sampled Values from a glmm fit
-scottish.lip.cancer      Cases of Lip Cancer in Scottish Counties
-seeds                    Seeds germinating in a factorial experiment
+Ra                      Create Random Factor
+ordinal.end             The ordinal end of an expression
+bugs.out                Write Glmm Fit To Bugs Output Files 
+coda.object             Convert Glmm Output For Use With CODA
+epil.bugs               Results of a Clinical trial of Progadine
+glmm                    GLMMs By Gibbs Sampling
+model.init              Initialise a GLMM
+add.block               Add a block to a C Structure GLMM
+plot.glmmfit            Plot Result Of Glmm Fit
+print.glmmfit           Print Result Of Glmm Fit
+rtparse                 Parse a terms expression into blocks
+sampled.values          Sampled Values from a glmm fit
+scottish.lip.cancer     Cases of Lip Cancer in Scottish Counties
+seeds                   Seeds germinating in a factorial experiment

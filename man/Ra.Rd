@@ -38,6 +38,7 @@ contrast="identity", map="none", zlevel=1, of.interest=FALSE)
 	sampling (see the instructions for {\tt glmm} below).
 	If \code{FALSE}, only the sampled values of the
 	hyperparameter are kept.}
+}
 \details{
   \code{Ra} returns an a factor, which when included in the model
   passed to the \code{glmm}
@@ -78,7 +79,7 @@ contrast="identity", map="none", zlevel=1, of.interest=FALSE)
   Thus, for example, if area 1 has three neighbours, numbered 7, 11, and
   12, the first line of the file should be:
 
-  \code{3:7,11,12\}
+  \code{3:7,11,12}
 
   Compare the file \code{scotland.adj} with the data given in the
   document

@@ -1,5 +1,5 @@
 Package: GLMMGibbs
-Version: 0.5
+Version: 0.5-1
 Author: Jonathan Myles and David Clayton <mylesj@icrf.icnet.uk>
 Maintainer: Jonathan Myles <mylesj@icrf.icnet.uk>
 Depends: R (>= 1.0)

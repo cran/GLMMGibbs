@@ -19,7 +19,7 @@ data(seeds)
         scale=0.001,
         type="identity",
         contrast="sum",
-	of.interest=F)
+	of.interest=FALSE)
 
 
 #Fit the two models by Gibbs sampling.  In each case, take 500 steps
@@ -31,7 +31,7 @@ data(seeds)
 g.seeds.1 <- glmm(formula=cbind(r,n-r)~x1+x2+plate,
      data=seeds,
      family=binomial,
-     store.results=T,             
+     store.results=TRUE,             
      icm=500,
      burnin=1000,
      keep=20000,
@@ -42,7 +42,7 @@ g.seeds.1 <- glmm(formula=cbind(r,n-r)~x1+x2+plate,
 g.seeds.2 <- glmm(formula=cbind(r,n-r)~x1*x2+plate,
      data=seeds,
      family=binomial,
-     store.results=T,             
+     store.results=TRUE,             
      icm=500,
      burnin=1000,
      keep=20000,

@@ -30,7 +30,7 @@ epil <- data.frame(y=epil.bugs$y,
 #declare the  factor subject to represent a random effect.
 
 epil$subject <- Ra(epil$subject,shape=0.0001,scale=0.0001,
-                  contrast="treatment",of.interest=F)
+                  contrast="treatment",of.interest=FALSE)
 
 
 #
@@ -45,7 +45,7 @@ g.epil  <- glmm(y~base+age+trt+base*trt+v4+subject,
             icm=2000,
             burnin=2000,
             keep=40000,
-            store.results=T,
+            store.results=TRUE,
             progress.info=1000,
                 thin=10)
 
